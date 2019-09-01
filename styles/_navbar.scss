@@ -1,0 +1,49 @@
+.frame {
+    width: 50px;
+    height: 40px;
+    background-image: url("/bigboss.png");
+    background-size: cover;
+    background-position: center;
+    list-style: none;
+    border: 2px solid black;
+
+}
+
+.navbar {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background: rgb(0, 0, 0);
+    z-index: 1;
+}
+
+.navbar ul {
+    width: 80%;
+    display: flex;
+    list-style: none;
+    margin-top: 5px;
+    justify-content: left;
+}
+
+.navbar ul li {
+    margin: 0 0.6rem;
+    padding: 0.2rem;
+    font-size: 2rem !important;
+}
+
+.navbar ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    transition: 600ms;
+    text-decoration: none;
+    text-align: left;
+    font-family: "Oswald", sans-serif;
+    padding: 0px 2px;
+
+
+    &:hover {
+        border: 1px solid rgb(47, 47, 47);
+        border-radius: 5px;
+        color: rgb(138, 138, 138);
+    }
+}

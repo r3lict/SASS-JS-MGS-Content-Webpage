@@ -1,0 +1,48 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: $direction;
+
+}
+
+header {
+    @include flexCenter(column);
+    background: url('/hero.jpg');
+    background-size: cover;
+    user-select: none;
+}
+
+header button {
+    background: $primaryBtn;
+
+    &:hover {
+        background: pink;
+    }
+}
+
+.header-text {
+    display: flex;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+    width: 500px;
+    height: 400px;
+    justify-self: right;
+    align-items: inherit;
+    justify-content: right;
+    font-family: "Oswald", sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+
+
+    h2 {
+        border: 2px solid #000;
+        border-radius: 0.8rem;
+        padding: 10px 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+
+
+    }
+}

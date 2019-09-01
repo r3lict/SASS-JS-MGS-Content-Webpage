@@ -1,0 +1,36 @@
+@import "./variables";
+@import "./header";
+@import "./mediaqueries";
+@import "./main";
+@import "./navbar";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #000;
+}
+
+.contact button {
+    background: $primaryBtn;
+
+    &:hover {
+        background: pink;
+    }
+}
+
+.logo {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 10rem;
+    visibility: hidden;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
