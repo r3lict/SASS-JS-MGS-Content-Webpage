@@ -9,7 +9,7 @@
 
 header {
     @include flexCenter(column);
-    background: url('/hero.jpg');
+    background: url('img/hero.jpg');
     background-size: cover;
     user-select: none;
 }
