@@ -13,7 +13,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background: url("img/hero.jpg");
+  background: url("/hero.jpg");
   background-size: cover;
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -329,6 +329,7 @@ header button:hover {
 .navbar ul li {
   margin: 0 0.6rem;
   padding: 0.2rem;
+  font-size: 2rem !important;
 }
 
 .navbar ul li a {
@@ -338,7 +339,6 @@ header button:hover {
   transition: 600ms;
   text-decoration: none;
   text-align: left;
-  font-size: 1.4rem;
   font-family: "Oswald", sans-serif;
   padding: 0px 2px;
 }
