@@ -20,7 +20,7 @@
 .container-content {
     width: 80%;
     height: 100vh;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right top, #1d2530, #122025, #0f1a19, #0b120e, #060703);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     border-radius: 2rem;
