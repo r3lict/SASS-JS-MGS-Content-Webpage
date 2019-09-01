@@ -1,7 +1,7 @@
 .frame {
     width: 50px;
     height: 40px;
-    background-image: url("img/bigboss.png");
+    background-image: url("../img/bigboss.png");
     background-size: cover;
     background-position: center;
     list-style: none;
@@ -28,7 +28,7 @@
 .navbar ul li {
     margin: 0 0.6rem;
     padding: 0.2rem;
-    font-size: 2rem !important;
+    font-size: 1.4rem;
 }
 
 .navbar ul li a {
